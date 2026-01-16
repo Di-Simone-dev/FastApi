@@ -1,0 +1,11 @@
+# Ignora l'intero ambiente virtuale
+.venv/
+
+# Ignora tutte le cartelle pycache in qualsiasi percorso
+__pycache__/
+**/__pycache__/
+
+# Ignora file Python compilati
+*.pyc
+*.pyo
+*.pyd

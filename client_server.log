@@ -1,0 +1,13 @@
+INFO:     Started server process [1069]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56176 - "GET /inference-server-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56180 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56190 - "GET /inference-server-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56204 - "POST /classify HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50254 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48996 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49010 - "GET /inference-server-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49016 - "POST /classify HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49024 - "GET / HTTP/1.1" 200 OK
